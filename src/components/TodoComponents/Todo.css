@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+}
+
+.item {
+    background-color: magenta;
+    width: 50%;
+    font-size: 20px;
+    margin: 0 auto;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+/* 
+.item.completed {
+  text-decoration-line: line-through;
+} */
+
+.todoForm {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 15%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.buttons {
+  border: magenta 1px solid;
+}
+
+input {
+  margin: 0 auto;
+  width: 30%;
+  margin-bottom: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.itemBox {
+  /* border: red solid 1px; */
+  width: 100%;
+  margin-right: 20px;
+}
+
+.checker {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Box {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  box-shadow: 0 24 30 0;
+}
+
+p {
+  width: 50%;
+  margin-right: 60px;
+  /* border: yellow solid 2px; */
+}
+
+.Box:after {
+  position: absolute;
+  width: 64%;
+  height: 12%;
+  left: 18%;
+  border-radius: 50%;
+  z-index: -1;
+  bottom: 0%;
+  content: "";
+  box-shadow: 0 50px 24px rgba(0,0,0,0.24);
+}
